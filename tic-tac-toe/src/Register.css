@@ -1,0 +1,230 @@
+.action-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+
+    position: absolute;
+    height: 56px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    /* background-color: black; */
+
+}
+.left-icons{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 34px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.create-icon{
+    position: absolute;
+    width: 114px;
+    height: 14px;
+    left: 24px;
+    top: 75px;
+
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+
+    /* Dark Grey */
+
+    color: #333333;
+}
+.know-you{
+    position: absolute;
+width: 255px;
+height: 64px;
+left: 24px;
+top: 98px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 32px;
+/* or 114% */
+
+letter-spacing: -0.05em;
+
+/* Dark Grey */
+
+color: #333333;
+
+}
+.name{
+    position: absolute;
+    width: 76px;
+    height: 14px;
+    left: 24px;
+    top: 201px;
+
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+
+    /* Dark Grey */
+
+    color: #333333;
+}
+.name-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 16px 16px;
+    gap: 4px;
+
+    position: absolute;
+    width: 284px;
+    height: 30px;
+    left: 24px;
+    top: 227px;
+    border: none;
+    
+
+    /* Smoke Grey */
+
+    background: #F4F4F4;
+    border-radius: 8px;
+
+}
+.username{
+    position: absolute;
+    width: 73px;
+    height: 14px;
+    left: 24px;
+    top: 299px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    
+    /* Dark Grey */
+    
+    color: #333333;
+    
+}
+.username-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 16px 16px;
+    gap: 4px;
+    
+    position: absolute;
+    width: 284px;
+    height: 30px;
+    left: 24px;
+    top: 325px;
+    border: none;
+    
+    /* Smoke Grey */
+    
+    background: #F4F4F4;
+    border-radius: 8px;
+
+}
+.email{
+    position: absolute;
+    width: 38px;
+    height: 14px;
+    left: 24px;
+    top: 397px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    
+    /* Dark Grey */
+    
+    color: #333333;
+}
+.email-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 16px 16px;
+    gap: 4px;
+    
+    position: absolute;
+    width: 284px;
+    height: 30px;
+    left: 24px;
+    top: 423px;
+    border: none;
+    
+    /* Smoke Grey */
+    
+    background: #F4F4F4;
+    border-radius: 8px;
+}
+
+.password{
+    position: absolute;
+    width: 69px;
+    height: 14px;
+    left: 24px;
+    top: 495px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    
+    /* Dark Grey */
+    
+    color: #333333;
+}
+.password-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 16px 16px;
+    gap: 4px;
+    
+    position: absolute;
+    width: 284px;
+    height: 30px;
+    left: 24px;
+    top: 521px;
+    border: none;
+    
+    /* Smoke Grey */
+    
+    background: #F4F4F4;
+    border-radius: 8px;
+
+}
+.register-button-registerPage{
+    position: absolute;
+    width: 318px;
+    height: 56px;
+    left: 24px;
+    right: 24px;
+    top: 650px;
+
+    }

@@ -3,22 +3,7 @@ import "./Entry.css";
 import  Button  from '@mui/material/Button';
 
 
-const styles = theme => ({
-    containedBlue: {
-      color: theme.palette.getContrastText('#2F80ED'),
-      backgroundColor: '#2F80ED',
-      "&:hover": {
-        backgroundColor: '#2F80ED',
-        // Reset on touch devices, it doesn't add specificity
-        "@media (hover: none)": {
-          backgroundColor: '#2F80ED'
-        }
-      }
-    },
-  
-    // This is required for the '&$disabled' selector to work
-    disabled: {}
-  });
+
 function Entry() {
  
   return (
