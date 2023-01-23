@@ -24,17 +24,17 @@ function Register() {
         <div className='username'>
         Username
         </div>
-        <input className='username-input' placeholder='Type your name here' type='text'></input>
+        <input className='username-input' placeholder='Type your username here' type='text'></input>
        
         <div className='email'>
         Email
         </div>
-        <input className='email-input' placeholder='Type your name here' type='text'></input>
+        <input className='email-input' placeholder='Type your email here' type='text'></input>
         
         <div className='password'>
         Password
         </div>
-        <input className='password-input' placeholder='Type your name here' type='text'></input>
+        <input className='password-input' placeholder='Type your password here' type='text'></input>
     
         <Button variant="contained" className='register-button-registerPage' sx={{ color: '#FFFFF', backgroundColor: '#F2C94C'}}>Register</Button>
     </div>
