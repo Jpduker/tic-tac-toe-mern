@@ -1,5 +1,5 @@
 .entry{
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
 }
 
 .async{
@@ -32,11 +32,43 @@
     color: #000000;
 }
 
-.login{
+
+.login-button{
     position: absolute;
     width: 328px;
     height: 56px;
     left: 16px;
-    bottom: 14px;
+    top: 568px;
+    bottom: 96px;
 
+    color: #2F80ED;
+    border-radius: 8px;
+    text-align: center;
+
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+}
+
+.register-button{
+    position: absolute;
+    width:328px;
+    height:56px;
+    top:648px ;
+    left: 16px;
+ 
+
+    
+
+    /* background-color: #F2C94C; */
+    border-radius: 8px;
+    text-align: center;
+
+
+/* Blue 1 */
+
+    background: #F2C94C;
+    /* Drop Shadow 1 */
+
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
 }
