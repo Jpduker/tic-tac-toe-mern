@@ -39,9 +39,9 @@
     height: 56px;
     left: 16px;
     top: 568px;
-    bottom: 96px;
 
-    color: #2F80ED;
+
+    
     border-radius: 8px;
     text-align: center;
 
@@ -53,22 +53,26 @@
     position: absolute;
     width:328px;
     height:56px;
-    top:648px ;
+    top: 590px;
     left: 16px;
- 
+    
+
 
     
 
     /* background-color: #F2C94C; */
-    border-radius: 8px;
+    border-radius: 16px;
     text-align: center;
+
 
 
 /* Blue 1 */
 
-    background: #F2C94C;
+
     /* Drop Shadow 1 */
 
     box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
-    border-radius: 8px;
+    border-radius: 16px;
+    borderRadius: 35;
+    backgroundColor: "#21b6ae";
 }
