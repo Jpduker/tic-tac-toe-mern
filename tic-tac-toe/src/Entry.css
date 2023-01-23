@@ -1,0 +1,42 @@
+.entry{
+    background-color: #F5F5F5;
+}
+
+.async{
+    position: absolute;
+    width: 105px;
+    height: 37px;
+    left: 128px;
+    top: 170px;
+
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 37px;
+}
+.tic-tac-toe{
+    position: absolute;
+    width: 272px;
+    height: 172px;
+    left: 47px;
+    top: 231px;
+
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 84px;
+    line-height: 86px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.login{
+    position: absolute;
+    width: 328px;
+    height: 56px;
+    left: 16px;
+    bottom: 14px;
+
+}
