@@ -1,0 +1,233 @@
+.action-bar-loginError{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    
+    position: absolute;
+    height: 56px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    /* background-color: black; */
+    
+    }
+    .left-icons-loginError{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    
+    width: 34px;
+    height: 24px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    .create-icon-loginError{
+    position: absolute;
+    width: 114px;
+    height: 14px;
+    left: 24px;
+    top: 75px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    
+    /* Dark Grey */
+    
+    color: #333333;
+    }
+    
+    .details-.action-bar-login{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 16px;
+
+position: absolute;
+height: 56px;
+left: 0%;
+right: 0%;
+top: 0px;
+/* background-color: black; */
+
+}
+.left-icons-login{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 34px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.create-icon-login{
+position: absolute;
+width: 114px;
+height: 14px;
+left: 24px;
+top: 75px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+
+/* Dark Grey */
+
+color: #333333;
+}
+
+.details-Error{
+    position: absolute;
+    width: 255px;
+    height: 64px;
+    left: 24px;
+    top: 98px;
+
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    /* or 114% */
+
+    letter-spacing: -0.05em;
+
+    /* Dark Grey */
+
+    color: #333333;
+
+}
+.username-loginError{
+    position: absolute;
+    width: 76px;
+    height: 14px;
+    left: 24px;
+    top: 201px;
+
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+
+    /* Dark Grey */
+
+    color: #333333;
+}
+.password-loginError{
+    position: absolute;
+    width: 73px;
+    height: 14px;
+    left: 24px;
+    top: 299px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    
+    /* Dark Grey */
+    
+    color: #333333;
+    
+}
+.username-input-loginError {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 16px 16px;
+    gap: 4px;
+
+    position: absolute;
+    width: 284px;
+    height: 30px;
+    left: 24px;
+    top: 227px;
+    border: none;
+    
+
+    /* Smoke Grey */
+
+    background: #F4F4F4;
+    border-radius: 8px;
+
+}
+.password-input-loginError{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 16px 16px;
+    gap: 4px;
+    
+    position: absolute;
+    width: 284px;
+    height: 30px;
+    left: 24px;
+    top: 325px;
+    border: none;
+    
+    /* Smoke Grey */
+    
+    background: #F4F4F4;
+    border-radius: 8px;
+
+}
+.login-button-LoginErrorPage{
+    position: absolute;
+    width: 318px;
+    height: 56px;
+    left: 24px;
+    right: 24px;
+    top: 650px;
+
+}
+.login-error{
+    position: absolute;
+    width: 319px;
+    height: 74px;
+    left: 24px;
+    top: 560px;
+
+    /* Red */
+
+    background: #EB5757;
+    border-radius: 8px;
+    
+}
+
+.login-error-text{
+    color: #F4F4F4;
+    font-weight: bold;
+    margin-top: 25px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+}
