@@ -8,18 +8,21 @@ import LoginError from './LoginError';
 import HomeNewUser from './HomeNewUser';
 import Newgame from './Newgame';
 import NewgameMove from './NewgameMove';
+import Home from './Home';
+import auth from './Auth'
 
 
 function App() {
   return (
     // <Entry/>
-    // <Register/>
+    <Register/>
     // <RegisterSuccess />
     // <Login />
     // <LoginError/>
     // <HomeNewUser />
     // <Newgame/>
-    <NewgameMove />
+    // <NewgameMove />
+    // <Home />
   );
 }
 
