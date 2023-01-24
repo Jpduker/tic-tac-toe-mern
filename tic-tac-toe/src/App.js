@@ -7,6 +7,7 @@ import Login from './Login';
 import LoginError from './LoginError';
 import HomeNewUser from './HomeNewUser';
 import Newgame from './Newgame';
+import NewgameMove from './NewgameMove';
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
     // <Login />
     // <LoginError/>
     // <HomeNewUser />
-    <Newgame/>
+    // <Newgame/>
+    <NewgameMove />
   );
 }
 
