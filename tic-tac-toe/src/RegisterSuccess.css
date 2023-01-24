@@ -1,4 +1,4 @@
-.action-bar{
+.action-bar-success{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -13,25 +13,24 @@
     /* background-color: black; */
 
 }
-.left-icons{
+.left-icons-success{
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
 
-width: 34px;
-height: 24px;
+    width: 34px;
+    height: 24px;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
-
-.create-icon{
+.create-icon-success{
     position: absolute;
     width: 114px;
     height: 14px;
@@ -48,7 +47,7 @@ flex-grow: 0;
 
     color: #333333;
 }
-.know-you{
+.know-you-success{
     position: absolute;
 width: 255px;
 height: 64px;
@@ -69,7 +68,7 @@ letter-spacing: -0.05em;
 color: #333333;
 
 }
-.name{
+.name-success{
     position: absolute;
     width: 76px;
     height: 14px;
@@ -86,7 +85,7 @@ color: #333333;
 
     color: #333333;
 }
-.name-input{
+.name-input-success{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -107,7 +106,7 @@ color: #333333;
     border-radius: 8px;
 
 }
-.username{
+.user-name-success{
     position: absolute;
     width: 73px;
     height: 14px;
@@ -125,7 +124,7 @@ color: #333333;
     color: #333333;
     
 }
-.username-input{
+.username-success{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -145,7 +144,8 @@ color: #333333;
     border-radius: 8px;
 
 }
-.email{
+
+.password-success{
     position: absolute;
     width: 38px;
     height: 14px;
@@ -162,7 +162,7 @@ color: #333333;
     
     color: #333333;
 }
-.email-input{
+.password-input-success{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -181,50 +181,23 @@ color: #333333;
     background: #F4F4F4;
     border-radius: 8px;
 }
+.toast{
+    position: absolute;
+    width: 322px;
+    height: 74px;
+    left: 21px;
+    top: 560px;
 
-.password{
-    position: absolute;
-    width: 69px;
-    height: 14px;
-    left: 24px;
-    top: 495px;
-    
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 14px;
-    
-    /* Dark Grey */
-    
-    color: #333333;
-}
-.password-input{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 20px 16px 16px;
-    gap: 4px;
-    
-    position: absolute;
-    width: 284px;
-    height: 30px;
-    left: 24px;
-    top: 521px;
-    border: none;
-    
-    /* Smoke Grey */
-    
-    background: #F4F4F4;
+    /* Green 3 */
+
+    background: #6FCF97;
     border-radius: 8px;
-
-}
-.register-button-registerPage{
-    position: absolute;
-    width: 318px;
-    height: 56px;
-    left: 24px;
-    right: 24px;
-    top: 650px;
-
+    
+    text-align: center;
     }
+
+.toast-text{
+    color: #F4F4F4;
+    font-weight: bold;
+    margin-top: 25px;
+}
