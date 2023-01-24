@@ -6,6 +6,7 @@ import RegisterSuccess from './RegisterSuccess';
 import Login from './Login';
 import LoginError from './LoginError';
 import HomeNewUser from './HomeNewUser';
+import Newgame from './Newgame';
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
     // <RegisterSuccess />
     // <Login />
     // <LoginError/>
-    <HomeNewUser />
+    // <HomeNewUser />
+    <Newgame/>
   );
 }
 
