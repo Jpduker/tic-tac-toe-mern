@@ -15,9 +15,9 @@ import auth from './Auth'
 function App() {
   return (
     // <Entry/>
-    <Register/>
+    // <Register/>
     // <RegisterSuccess />
-    // <Login />
+    <Login />
     // <LoginError/>
     // <HomeNewUser />
     // <Newgame/>
